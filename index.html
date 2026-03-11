@@ -186,14 +186,44 @@
         footer { background: #020617; color: #94a3b8; padding: 100px 5% 60px; }
         .footer-logo { font-size: 26px; font-weight: 950; color: white; margin-bottom: 30px; display: block; }
 
-        @media (max-width: 968px) {
-            .how-grid { grid-template-columns: repeat(2, 1fr); }
-            .problem-content, .value-grid { grid-template-columns: 1fr; text-align: center; }
-            .problem-3d { font-size: 100px; margin-top: 30px; }
-            .nav-menu { display: none; }
-            .btn { width: 100%; }
-            .floating-cta { bottom: 25px; left: 25px; right: 25px; }
-        }
+       @media (max-width: 968px) {
+    .how-grid { grid-template-columns: repeat(2, 1fr); }
+    .problem-content, .value-grid { grid-template-columns: 1fr; text-align: center; }
+    .problem-3d { font-size: 100px; margin-top: 30px; }
+    .nav-menu { display: none; }
+    .btn { width: 100%; }
+    .floating-cta { bottom: 25px; left: 25px; right: 25px; }
+
+    .title-large{
+        font-size:28px;
+        line-height:1.4;
+    }
+
+    .title-medium{
+        font-size:24px;
+    }
+
+    .text-sub{
+        font-size:15px;
+        line-height:1.7;
+    }
+
+    .lesson-grid{
+        grid-template-columns:1fr;
+    }
+
+    .category-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .section{
+        padding:70px 20px;
+    }
+
+    .hero{
+        padding:140px 20px 80px;
+    }
+}
     </style>
 </head>
 <body>
@@ -221,7 +251,11 @@
         <div class="reveal">
             <span class="hero-3d-icon">⛳️</span>
             <span class="section-tag">Representative Practical Lesson Platform</span>
-            <h1 class="title-large">1:1 맞춤 요청 · 파3 · 필드 · 숏게임 · 캠프 내가 필요한 진짜 골프 레슨<br>한 눈에 쉽게 보고 신청하는 방법</h1>
+            <h1 class="title-large">
+내가 필요한 진짜 골프 레슨<br>
+파3 · 숏게임 · 필드 · 캠프<br>
+한 눈에 쉽게 찾고 신청하세요
+</h1>
             <p class="text-sub">대한민국 대표 <strong>실전 골프레슨 플랫폼, 스승님</strong><br>내가 원하는 레슨을 요청하면 내 주변 검증된 스승님들을 추천&매칭합니다.</p>
 
             <div style="margin-top: 50px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
@@ -501,26 +535,6 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
