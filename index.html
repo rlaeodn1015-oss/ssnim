@@ -259,9 +259,14 @@
             <p class="text-sub">대한민국 대표 <strong>실전 골프레슨 플랫폼, 스승님</strong><br>내가 원하는 레슨을 요청하면 내 주변 검증된 스승님들을 추천&매칭합니다.</p>
 
             <div style="margin-top: 50px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                <a href="https://ssnim.com/install.html" class="btn btn-primary">앱 설치하고 매칭 요청하기</a>
-                <a href="#lessons" class="btn btn-white">실전 레슨 보기</a>
-            </div>
+<a href="https://ssnim.com/install.html" class="btn btn-primary">앱 설치하고 매칭 요청하기</a>
+<a href="#lessons" class="btn btn-white">실전 레슨 보기</a>
+
+<button onclick="sharePage()" class="btn btn-white">
+골프 친구에게 공유
+</button>
+
+</div>
         </div>
     </header>
 
@@ -557,9 +562,28 @@
             const num = Math.floor(Math.random() * 8) + 12;
             document.querySelector('.live-tag').innerText = `실시간 ${num}명 가입`;
         }, 5000);
+
+        function sharePage() {
+
+const shareData = {
+title: "스승님 | 실전 골프 레슨 플랫폼",
+text: "파3 · 숏게임 · 필드레슨 · 골프캠프까지 한 눈에 보는 실전 골프레슨 플랫폼",
+url: window.location.href
+};
+
+if (navigator.share) {
+navigator.share(shareData);
+} else {
+navigator.clipboard.writeText(window.location.href);
+alert("링크가 복사되었습니다!");
+}
+
+}
+        
     </script>
 </body>
 </html>
+
 
 
 
