@@ -234,6 +234,29 @@ gtag('config', 'G-36KDMEK8Q2');
         padding:140px 20px 80px;
     }
 }
+
+        /* Lesson share button */
+.share-btn{
+position:absolute;
+top:15px;
+right:15px;
+background:white;
+border-radius:50%;
+width:38px;
+height:38px;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+cursor:pointer;
+font-size:18px;
+transition:0.2s;
+z-index:5;
+}
+
+.share-btn:hover{
+transform:scale(1.1);
+}
     </style>
 </head>
 <body>
@@ -288,7 +311,7 @@ gtag('config', 'G-36KDMEK8Q2');
         </div>
         <div class="lesson-grid">
             <article class="lesson-card reveal">
-                <div class="lesson-img-wrapper">
+                <div class="share-btn" onclick="sharePage()">🔗</div>
                     <img src="images/shortgame1.jpg" alt="인기폭발 숏게임 레슨">
                     <div class="price-chip">2시간 실전 숏게임 레슨
 185,000원</div>
@@ -301,7 +324,7 @@ gtag('config', 'G-36KDMEK8Q2');
                 </div>
             </article>
             <article class="lesson-card reveal">
-                <div class="lesson-img-wrapper">
+                <div class="share-btn" onclick="sharePage()">🔗</div>
                     <img src="images/02ce4f3f-f5dd-4e76-9174-71cdbb36fb4f.jpg" alt="에이밍포인트 숏게임 특화 레슨">
                     <div class="price-chip">199,000원 / 2시간 / 3인기준</div>
                 </div>
@@ -313,7 +336,7 @@ gtag('config', 'G-36KDMEK8Q2');
                 </div>
             </article>
             <article class="lesson-card reveal">
-    <div class="lesson-img-wrapper">
+    <div class="share-btn" onclick="sharePage()">🔗</div>
         <img src="images/jeju.jpg" alt="제주 아덴힐CC VVIP 골프 캠프">
         <div class="price-chip">160만원 / 1박2일</div>
     </div>
@@ -328,7 +351,7 @@ gtag('config', 'G-36KDMEK8Q2');
     </div>
 </article>
             <article class="lesson-card reveal">
-    <div class="lesson-img-wrapper">
+    <div class="share-btn" onclick="sharePage()">🔗</div>
         <img src="images/request.jpg" alt="1:1 맞춤 요청 레슨">
         <div class="price-chip">내가 원하는대로 1:1 레슨 요청</div>
     </div>
