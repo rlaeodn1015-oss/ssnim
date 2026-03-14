@@ -276,7 +276,11 @@ transform:scale(1.1);
 
     <div class="floating-cta reveal">
         <div class="live-tag">실시간 18명이 보는 중</div>
-        <a href="https://ssnim.com/install.html" class="btn btn-primary">스승님 앱 다운로드</a>
+        <a href="https://ssnim.com/install.html"
+class="btn btn-primary"
+onclick="gtag('event','app_download_click');">
+앱 다운로드
+</a>
     </div>
 
     <!-- 1. 히어로 (Hero) -->
@@ -341,7 +345,10 @@ onclick="sharePage('https://rlaeodn1015-oss.github.io/ssnim-lesson/')">레슨공
 </p>
 
 <a href="https://rlaeodn1015-oss.github.io/ssnim-lesson/"
-class="btn btn-primary" style="width:100%;">
+class="btn btn-primary"
+onclick="gtag('event','lesson_view_click',{
+lesson:'seo_suyeon'
+});">
 서수연스승 실전숏게임 바로보기
 </a>
 
@@ -379,6 +386,9 @@ onclick="sharePage('https://rlaeodn1015-oss.github.io/ssnim-kwon/')">레슨공�
 
 <a href="https://rlaeodn1015-oss.github.io/ssnim-kwon/"
 class="btn btn-primary" style="width:100%;">
+    onclick="gtag('event','lesson_view_click',{
+lesson:'kwon_duuk'
+});"
 권두욱스승 에임포인트 바로보기
 </a>
 
@@ -416,6 +426,9 @@ onclick="sharePage('https://rlaeodn1015-oss.github.io/ssnim-jejudo/')">캠프공
 
 <a href="https://rlaeodn1015-oss.github.io/ssnim-jejudo/"
 class="btn btn-primary" style="width:100%;">
+    onclick="gtag('event','lesson_view_click',{
+lesson:'jeju_camp'
+});"
 제주 캠프 정보 바로보기
 </a>
 
@@ -688,6 +701,10 @@ class="btn btn-primary" style="width:100%;">
         }, 5000);
 
         function sharePage(url){
+
+gtag('event','share_click',{
+share_url:url
+});
 
 const shareData = {
 title: "스승님 | 실전 골프 레슨 플랫폼",
