@@ -152,7 +152,16 @@ gtag('config', 'G-36KDMEK8Q2');
 
         /* 4. Category Section */
         .category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-top: 40px; }
-        .cat-card { background: white; padding: 30px 20px; border-radius: var(--radius-lg); text-align: center; border: 1px solid #f1f5f9; transition: 0.3s; text-decoration: none; }
+        .cat-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    border: 1px solid #f1f5f9;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: default;
+}
         .cat-card:hover { transform: translateY(-8px); border-color: var(--primary-light); box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
         .cat-emoji { font-size: 40px; display: block; margin-bottom: 15px; }
         .cat-name { font-weight: 800; font-size: 16px; color: var(--text-main); }
@@ -306,6 +315,156 @@ onclick="gtag('event','app_download_click');">
 </div>
         </div>
     </header>
+
+    <!-- 3. 문제 (Problem) -->
+    <section class="section problem-section reveal">
+        <div class="problem-content">
+            <div style="max-width: 600px;">
+                <h2 class="title-medium" style="color: white;">레슨을 받는데 왜 필드 스코어는<br>항상 변함없이 그대로일까요? 🫠</h2>
+                <p class="text-sub" style="color: #94a3b8; font-size: 18px;">연습장과 스크린에서 싱글스코어, 필드에선 90돌이, 백돌이... 경사면, 잔디의 결, 벙커 및 트러블 샷.<br>실전 상황에서의 대처법을 모른다면 타수는 항상 제자리일 뿐입니다.</p>
+                <p style="margin-top: 20px; font-weight: 800; color: var(--primary-light);">그래서 필요한 것이 실전 골프레슨 플랫폼입니다.</p>
+            </div>
+            <div class="problem-3d">🏌️‍♂️</div>
+        </div>
+    </section>
+
+    <!-- 4. 해결책 (Price & Value Comparison) -->
+    <section class="section reveal">
+        <div class="section-header">
+            <span class="section-tag">Value Comparison</span>
+            <h2 class="title-medium">가장 현명한 골프 투자 💎</h2>
+        </div>
+        <div class="value-grid">
+            <div class="value-card bad">
+                <h4>실내 레슨 (60분)</h4>
+                <ul>
+                    <li>매트 위에서의 스윙 궤도 교정</li>
+                    <li>필드 실전 상황 응용 불가능</li>
+                    <li>데이터 수치에만 의존하는 교육</li>
+                    <li>단기적인 피드백의 한계</li>
+                </ul>
+            </div>
+            <div class="value-card good">
+                <h4 style="color: var(--primary);">스승님 실전 레슨 (120분)</h4>
+                <ul>
+                    <li>실제 필드/숏게임장 상황 레슨</li>
+                    <li>타수를 줄이는 실제 상황 매니지먼트</li>
+                    <li>레슨시간 동안 스승님들의 노하우 집중 전수</li>
+                    <li>트러블 샷 및 상황별 완벽 대응</li>
+                </ul>
+                <p style="margin-top: 25px; font-weight: 800; color: var(--primary);">"가성비를 넘어선 압도적인 실전 가치"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. 이용방법 (Core UX: Matching) -->
+    <section id="match" class="section">
+        <div class="section-header reveal">
+            <span class="section-tag">How it works</span>
+            <h2 class="title-medium">스승님만의 <br>초간편 매칭 시스템 ⏱️</h2>
+            <p class="text-sub">직접 골프 스승님 찾기 힘드셨죠?<br> 요청서를 작성하면 스승님이 매칭해드려요.</p>
+        </div>
+        <div class="how-grid">
+            <div class="how-step reveal">
+                <span class="step-num">STEP 01</span>
+                <span class="step-icon">📝</span>
+                <h3 style="margin-bottom: 8px; font-size: 18px;">레슨 요청 작성</h3>
+                <p style="color: var(--text-sub); font-size: 14px;">원하는 레슨형태, 날짜, 장소, 금액, 고민 등을 앱에서 간단히 작성하세요.</p>
+            </div>
+            <div class="how-step reveal">
+                <span class="step-num">STEP 02</span>
+                <span class="step-icon">📬</span>
+                <h3 style="margin-bottom: 8px; font-size: 18px;">검증 스승 매칭</h3>
+                <p style="color: var(--text-sub); font-size: 14px;">검증된 스승님들이 요청내용에 따라 매칭됩니다.</p>
+            </div>
+            <div class="how-step reveal">
+                <span class="step-num">STEP 03</span>
+                <span class="step-icon">🏆</span>
+                <h3 style="margin-bottom: 8px; font-size: 18px;">원하는 스승님 선택</h3>
+                <p style="color: var(--text-sub); font-size: 14px;">프로필과 수강 후기를 비교하고 가장 신뢰가는 스승님을 선택하세요.</p>
+            </div>
+            <div class="how-step reveal">
+                <span class="step-num">STEP 04</span>
+                <span class="step-icon">⛳️</span>
+                <h3 style="margin-bottom: 8px; font-size: 18px;">실전 레슨은 스승님</h3>
+                <p style="color: var(--text-sub); font-size: 14px;">진짜 잔디에서 스승님들의 각종 실전 노하우를 직접 전수받으세요.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. 카테고리 (Lesson Types) -->
+<section id="category" class="section reveal">
+    <div class="section-header">
+        <span class="section-tag">Lesson Types</span>
+        <h2 class="title-medium">스승님에서 찾을 수 있는<br>실전 골프 레슨들 ⛳</h2>
+        <p class="text-sub">
+            파3 · 필드 · 숏게임 · 퍼팅 · 9홀 · 골프캠프까지<br>
+            다양한 실전 골프 레슨이 스승님에서 등록됩니다.
+        </p>
+    </div>
+
+    <div class="category-grid">
+
+        <div class="cat-card">
+            <span class="cat-emoji">⛳</span>
+            <span class="cat-name">파3 레슨</span>
+        </div>
+
+        <div class="cat-card">
+            <span class="cat-emoji">🏌️‍♂️</span>
+            <span class="cat-name">필드 레슨</span>
+        </div>
+
+        <div class="cat-card">
+            <span class="cat-emoji">🎯</span>
+            <span class="cat-name">숏게임 레슨</span>
+        </div>
+
+        <div class="cat-card">
+            <span class="cat-emoji">🐦</span>
+            <span class="cat-name">퍼팅 레슨</span>
+        </div>
+
+        <div class="cat-card">
+            <span class="cat-emoji">🗺️</span>
+            <span class="cat-name">9홀 레슨</span>
+        </div>
+
+        <div class="cat-card">
+            <span class="cat-emoji">🏕️</span>
+            <span class="cat-name">골프 캠프</span>
+        </div>
+
+    </div>
+
+    <!-- 안내 문구 (전환 유도) -->
+    <p style="text-align:center;margin-top:30px;font-weight:700;color:#1e3a8a;">
+        이 레슨들은 스승님 앱에서 쉽게 찾고 신청할 수 있습니다.
+    </p>
+
+</section>
+
+    <!-- 6. 후기 섹션 (Reviews) - New -->
+    <section id="reviews" class="section reveal" style="background: white; border-radius: 60px;">
+        <div class="section-header">
+            <span class="section-tag">Real Success Stories</span>
+            <h2 class="title-medium">수강생들이 경험한 <br>놀라운 타수 변화 ✨</h2>
+        </div>
+        <div class="review-grid">
+            <div class="review-card reveal">
+                <p class="review-quote">"숏게임 레슨 딱 1번 받고 필드 나갔는데 평균 타수 6타 줄었습니다. 실내 레슨에서 배우는거랑 차원이 다르네요ㅎㅎ"</p>
+                <div class="review-author">김OO 회원님 (구력 5년)</div>
+            </div>
+            <div class="review-card reveal">
+                <p class="review-quote">"퍼터 실수의 완벽한 이유를 너무 자세히 설명해주시고 교정해서 드디어 97타 라베했어요. 권두욱 프로님 숏게임,퍼터 레슨 강력 추천합니다."</p>
+                <div class="review-author">박OO 회원님 (백돌이 탈출)</div>
+            </div>
+            <div class="review-card reveal">
+                <p class="review-quote">"앱에서 제가 원하는 레슨을 올렸는데 5분 만에 매칭되서 너무 편했어요. 맞춤 요청 레슨 편리하고 최고입니다."</p>
+                <div class="review-author">이OO 회원님 (초보 골퍼)</div>
+            </div>
+        </div>
+    </section>
 
     <!-- 8. Lessons Section -->
 <section id="lessons" class="section">
@@ -472,139 +631,6 @@ class="btn btn-primary" style="width:100%;">
 
 </div>
 </section>
-
-    <!-- 3. 문제 (Problem) -->
-    <section class="section problem-section reveal">
-        <div class="problem-content">
-            <div style="max-width: 600px;">
-                <h2 class="title-medium" style="color: white;">레슨을 받는데 왜 필드 스코어는<br>항상 변함없이 그대로일까요? 🫠</h2>
-                <p class="text-sub" style="color: #94a3b8; font-size: 18px;">연습장과 스크린에서 싱글스코어, 필드에선 90돌이, 백돌이... 경사면, 잔디의 결, 벙커 및 트러블 샷.<br>실전 상황에서의 대처법을 모른다면 타수는 항상 제자리일 뿐입니다.</p>
-                <p style="margin-top: 20px; font-weight: 800; color: var(--primary-light);">그래서 필요한 것이 실전 골프레슨 플랫폼입니다.</p>
-            </div>
-            <div class="problem-3d">🏌️‍♂️</div>
-        </div>
-    </section>
-
-    <!-- 4. 해결책 (Price & Value Comparison) -->
-    <section class="section reveal">
-        <div class="section-header">
-            <span class="section-tag">Value Comparison</span>
-            <h2 class="title-medium">가장 현명한 골프 투자 💎</h2>
-        </div>
-        <div class="value-grid">
-            <div class="value-card bad">
-                <h4>실내 레슨 (60분)</h4>
-                <ul>
-                    <li>매트 위에서의 스윙 궤도 교정</li>
-                    <li>필드 실전 상황 응용 불가능</li>
-                    <li>데이터 수치에만 의존하는 교육</li>
-                    <li>단기적인 피드백의 한계</li>
-                </ul>
-            </div>
-            <div class="value-card good">
-                <h4 style="color: var(--primary);">스승님 실전 레슨 (120분)</h4>
-                <ul>
-                    <li>실제 필드/숏게임장 상황 레슨</li>
-                    <li>타수를 줄이는 실제 상황 매니지먼트</li>
-                    <li>레슨시간 동안 스승님들의 노하우 집중 전수</li>
-                    <li>트러블 샷 및 상황별 완벽 대응</li>
-                </ul>
-                <p style="margin-top: 25px; font-weight: 800; color: var(--primary);">"가성비를 넘어선 압도적인 실전 가치"</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 5. 이용방법 (Core UX: Matching) -->
-    <section id="match" class="section">
-        <div class="section-header reveal">
-            <span class="section-tag">How it works</span>
-            <h2 class="title-medium">스승님만의 <br>초간편 매칭 시스템 ⏱️</h2>
-            <p class="text-sub">직접 골프 스승님 찾기 힘드셨죠?<br> 요청서를 작성하면 스승님이 매칭해드려요.</p>
-        </div>
-        <div class="how-grid">
-            <div class="how-step reveal">
-                <span class="step-num">STEP 01</span>
-                <span class="step-icon">📝</span>
-                <h3 style="margin-bottom: 8px; font-size: 18px;">레슨 요청 작성</h3>
-                <p style="color: var(--text-sub); font-size: 14px;">원하는 레슨형태, 날짜, 장소, 금액, 고민 등을 앱에서 간단히 작성하세요.</p>
-            </div>
-            <div class="how-step reveal">
-                <span class="step-num">STEP 02</span>
-                <span class="step-icon">📬</span>
-                <h3 style="margin-bottom: 8px; font-size: 18px;">검증 스승 매칭</h3>
-                <p style="color: var(--text-sub); font-size: 14px;">검증된 스승님들이 요청내용에 따라 매칭됩니다.</p>
-            </div>
-            <div class="how-step reveal">
-                <span class="step-num">STEP 03</span>
-                <span class="step-icon">🏆</span>
-                <h3 style="margin-bottom: 8px; font-size: 18px;">원하는 스승님 선택</h3>
-                <p style="color: var(--text-sub); font-size: 14px;">프로필과 수강 후기를 비교하고 가장 신뢰가는 스승님을 선택하세요.</p>
-            </div>
-            <div class="how-step reveal">
-                <span class="step-num">STEP 04</span>
-                <span class="step-icon">⛳️</span>
-                <h3 style="margin-bottom: 8px; font-size: 18px;">실전 레슨은 스승님</h3>
-                <p style="color: var(--text-sub); font-size: 14px;">진짜 잔디에서 스승님들의 각종 실전 노하우를 직접 전수받으세요.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 2. 카테고리 (Category) - New -->
-    <section id="category" class="section reveal">
-        <div class="section-header">
-            <span class="section-tag">Lesson Categories</span>
-            <h2 class="title-medium">어떤 실전 레슨을 찾으시나요? 🎯</h2>
-            <p class="text-sub">스승님은 모든 소비자의 어떠한 레슨 요청에도<br>완벽한 매칭을 지원합니다.</p>
-        </div>
-        <div class="category-grid">
-            <a href="https://ssnim.com/install.html" class="cat-card">
-                <span class="cat-emoji">⛳</span>
-                <span class="cat-name">파3 레슨</span>
-            </a>
-            <a href="https://ssnim.com/install.html" class="cat-card">
-                <span class="cat-emoji">🏌️‍♂️</span>
-                <span class="cat-name">필드 레슨</span>
-            </a>
-            <a href="https://ssnim.com/install.html" class="cat-card">
-                <span class="cat-emoji">🎯</span>
-                <span class="cat-name">숏게임 레슨</span>
-            </a>
-            <a href="https://ssnim.com/install.html" class="cat-card">
-                <span class="cat-emoji">🐦</span>
-                <span class="cat-name">퍼팅 레슨</span>
-            </a>
-            <a href="https://ssnim.com/install.html" class="cat-card">
-                <span class="cat-emoji">🗺️</span>
-                <span class="cat-name">9홀 레슨</span>
-            </a>
-            <a href="https://ssnim.com/install.html" class="cat-card">
-                <span class="cat-emoji">🏕️</span>
-                <span class="cat-name">골프 캠프</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- 6. 후기 섹션 (Reviews) - New -->
-    <section id="reviews" class="section reveal" style="background: white; border-radius: 60px;">
-        <div class="section-header">
-            <span class="section-tag">Real Success Stories</span>
-            <h2 class="title-medium">수강생들이 경험한 <br>놀라운 타수 변화 ✨</h2>
-        </div>
-        <div class="review-grid">
-            <div class="review-card reveal">
-                <p class="review-quote">"숏게임 레슨 딱 1번 받고 필드 나갔는데 평균 타수 6타 줄었습니다. 실내 레슨에서 배우는거랑 차원이 다르네요ㅎㅎ"</p>
-                <div class="review-author">김OO 회원님 (구력 5년)</div>
-            </div>
-            <div class="review-card reveal">
-                <p class="review-quote">"퍼터 실수의 완벽한 이유를 너무 자세히 설명해주시고 교정해서 드디어 97타 라베했어요. 권두욱 프로님 숏게임,퍼터 레슨 강력 추천합니다."</p>
-                <div class="review-author">박OO 회원님 (백돌이 탈출)</div>
-            </div>
-            <div class="review-card reveal">
-                <p class="review-quote">"앱에서 제가 원하는 레슨을 올렸는데 5분 만에 매칭되서 너무 편했어요. 맞춤 요청 레슨 편리하고 최고입니다."</p>
-                <div class="review-author">이OO 회원님 (초보 골퍼)</div>
-            </div>
-        </div>
-    </section>
 
     <!-- 7. Pros Section -->
     <section id="pros" class="section">
